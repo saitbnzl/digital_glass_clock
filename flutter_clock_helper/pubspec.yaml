@@ -1,5 +1,6 @@
-name: digital_glass_clock
-description: Digital Glass Clock.
+name: flutter_clock_helper
+description: Helper classes for Flutter Clock contest.
+
 version: 1.0.0+1
 
 environment:
@@ -8,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_clock_helper:
-    path: ./flutter_clock_helper
+  intl: "^0.16.0"
+
   cupertino_icons: ^0.1.2
 
 dev_dependencies:

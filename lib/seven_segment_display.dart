@@ -29,8 +29,8 @@ class SevenSegmentDisplay extends StatelessWidget {
   final double onOpacity;
   final Color color;
 
-  static const double SEGMENT_HEIGHT = 40;
-  static const double SEGMENT_WIDTH = 10;
+  static const double SEGMENT_HEIGHT = 60;
+  static const double SEGMENT_WIDTH = 15;
   static const double SEGMENT_MARGIN = SEGMENT_WIDTH / 2;
 
   @override
