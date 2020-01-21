@@ -97,6 +97,7 @@ class _DigitalGlassClockState extends State<DigitalGlassClock> {
     final hour =
         DateFormat(widget.model.is24HourFormat ? 'HH' : 'hh').format(_dateTime);
     final seconds = DateFormat('ss').format(_dateTime);
+    final minute = DateFormat('mm').format(_dateTime);
 
     return ClockContainer(
       clockModel: widget.model,
@@ -142,7 +143,7 @@ class _DigitalGlassClockState extends State<DigitalGlassClock> {
                       child: Colon(color: colors[_Element.displayColor]),
                     ),
                     DoubleDigitDisplay(
-                        value: hour,
+                        value: minute,
                         displayColor: colors[_Element.displayColor]),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 8.0),
