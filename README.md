@@ -4,7 +4,7 @@ No assets, no fonts, no 3rd party.. Everything is a widget!
 
 This is my submission to the Flutter Clock Challenge. 
 
-My main goal was using no assets, no fonts, no 3rd party package. Everything you see on the screen is drawn by Flutter either with canvas or just standard Flutter widgets.
+Everything, every pixel you see on the screen is painted by Flutter either by Flutter canvas(CustomPaint) or just standard Flutter widgets. No assets, no fonts (Text widget is not used), no 3rd party packages.. Just Flutter!
 
 Note: I've worked on [my clone of flutter_clock repo](https://github.com/saitbnzl/cyber_clock). Made my commits there in a new branch. So this repo is just for submission. That's why this repo has too few comits.
 
